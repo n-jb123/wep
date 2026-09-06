@@ -1,0 +1,65 @@
+export const typography = {
+  fontFamily: ["bricolageGrotesque", "plusJakartaSans"].join(","),
+  h1: {
+    fontFamily: "bricolageGrotesque",
+    fontSize: "44px",
+    fontWeight: "800",
+    lineHeight: "52px",
+    letterSpacing: "-0.02em",
+  },
+  h2: {
+    fontFamily: "bricolageGrotesque",
+    fontSize: "30px",
+    fontWeight: "700",
+    lineHeight: "38px",
+  },
+  h3: {
+    fontFamily: "bricolageGrotesque",
+    fontSize: "22px",
+    fontWeight: "700",
+    lineHeight: "28px",
+  },
+  h4: {
+    fontFamily: "bricolageGrotesque",
+    fontSize: "18px",
+    fontWeight: "600",
+    lineHeight: "24px",
+  },
+  title: {
+    fontFamily: "plusJakartaSans",
+    fontSize: "16px",
+    fontWeight: "600",
+    lineHeight: "22px",
+  },
+  body1: {
+    fontFamily: "plusJakartaSans",
+    fontSize: "16px",
+    fontWeight: "400",
+    lineHeight: "26px",
+  },
+  body2: {
+    fontFamily: "plusJakartaSans",
+    fontSize: "14px",
+    fontWeight: "400",
+    lineHeight: "22px",
+  },
+  body3: {
+    fontFamily: "plusJakartaSans",
+    fontSize: "12px",
+    fontWeight: "500",
+    lineHeight: "18px",
+  },
+  label: {
+    fontFamily: "plusJakartaSans",
+    fontSize: "11px",
+    fontWeight: "700",
+    lineHeight: "14px",
+    letterSpacing: "0.04em",
+  },
+  caption: {
+    fontFamily: "plusJakartaSans",
+    fontSize: "10px",
+    fontWeight: "500",
+    lineHeight: "14px",
+  },
+};
