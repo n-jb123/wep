@@ -13,6 +13,9 @@ const theme = createTheme({
       dark: lightColor.primary.dark,
       contrastText: lightColor.primary.contrastText,
     },
+    outline:{
+      main:lightColor.outline.main
+    },
     secondary: {
       main: lightColor.secondary.main,
       light: lightColor.secondary.light,

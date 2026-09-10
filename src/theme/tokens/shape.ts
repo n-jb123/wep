@@ -1,9 +1,9 @@
 export const shape={
-    xs:2,
-    sm: 4, 
-    md: 8, 
-    lg: 16, 
-    xl: 24, 
-    xxl:32,
-    full:999
+    xs:'2px',
+    sm: '4px', 
+    md: '8px', 
+    lg: '16px', 
+    xl: '24px', 
+    xxl:'32px',
+    full:'999px'
 }

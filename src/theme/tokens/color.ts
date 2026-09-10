@@ -5,9 +5,12 @@ export const lightColor = {
     dark: "#032517",
     contrastText: "#fff",
   },
+  outline:{
+    main:'#727973'
+  } ,
   secondary:{
-    main: "#9e441eff",
-    light: '#ec7846ff',
+    main: "#d6a996ff",
+    light: '#ffc1a6ff',
     dark: "#58210aff",
     contrastText: "#000",
   },

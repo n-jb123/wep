@@ -1,24 +1,34 @@
 import * as React from "react";
 
 declare module "@mui/material/styles" {
+  interface Palette {
+    outline: Palette["main"]; 
+  }
+
+  interface PaletteOptions {
+    outline?: PaletteOptions["main"];
+  }
+}
+
+declare module "@mui/material/styles" {
   interface Shape {
-    xs: number;
-    sm: number;
-    md: number;
-    lg: number;
-    xl: number;
-    xxl: number;
-    full: number;
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+    xxl: string;
+    full: string;
   }
 
   interface ShapeOptions {
-    xs?: number;
-    sm?: number;
-    md?: number;
-    lg?: number;
-    xl?: number;
-    xxl?: number;
-    full?: number;
+    xs?: string;
+    sm?: string;
+    md?: string;
+    lg?: string;
+    xl?: string;
+    xxl?: string;
+    full?: string;
   }
 
   interface TypographyVariants {
