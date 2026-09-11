@@ -2,9 +2,10 @@
 import { Button } from "@mui/material";
 import { ReactNode } from "react";
 
-export default function SecondaryButton({ children }: { children: ReactNode }) {
+export default function SecondaryButton({ children,onClick }: { children: ReactNode ,onClick?:()=>void}) {
   return (
     <Button
+    onClick={onClick}
       sx={(theme) => ({
         display: "flex",
         flexDirection: "row",

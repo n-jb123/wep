@@ -7,7 +7,7 @@ export interface MustakshifLogoProps extends SVGProps<SVGSVGElement> {
   secondaryColor?: string;
 }
 
-export default function MustakshifLogo({
+export default function Logo({
   primaryColor = "#087a4b",
   secondaryColor = "#d6a996",
   width,

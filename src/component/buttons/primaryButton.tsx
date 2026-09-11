@@ -5,12 +5,15 @@ import { ReactNode } from "react";
 export default function PrimaryButton({
   children,
   title,
+  onClick
 }: {
-  children: ReactNode;
+  children?: ReactNode;
   title: string;
+  onClick?:()=>void
 }) {
   return (
     <Button
+    onClick={onClick}
       sx={(theme) => ({
         display: "flex",
         flexDirection: "row",
@@ -18,10 +21,13 @@ export default function PrimaryButton({
         borderRadius: theme.shape.full,
         alignItems: "center",
         justifyContent: "center",
-        gap: 3,
-        pt: 4,
-        pb: 4,
+        gap:2,
+        paddingTop:2,
+        paddingBottom:2,
+        paddingRight:4,
+        paddingLeft:4,
         width: "100%",
+        height:50,
         transition: "all 0.5s",
         boxShadow: `0 1px 10px 2px ${theme.palette.primary.main}`,
         "&:hover": {
@@ -37,10 +43,11 @@ export default function PrimaryButton({
       })}
     >
       
-      {children}
+      
       <Typography variant="title" sx={{ color: "primary.contrastText" }}>
         {title}
       </Typography>
+      {children}
     </Button>
   );
 }

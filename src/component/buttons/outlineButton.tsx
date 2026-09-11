@@ -5,18 +5,25 @@ import { ReactNode } from "react";
 export default function OutlineButton({
   title,
   children,
+  onClick,
 }: {
   title: string;
   children?: ReactNode;
+  onClick?:()=>void
 }) {
   return (
     <Button
+    onClick={onClick}
       sx={(theme) => ({
         display: "flex",
         flexDirection: "row",
         bgcolor: "transform",
-        p: 4,
+        paddingTop:2,
+        paddingBottom:2,
+        paddingRight:4,
+        paddingLeft:4,
         gap: 3,
+        height:50,
         borderRadius: theme.shape.full,
         alignItems: "center",
         justifyContent: "center",
