@@ -10,10 +10,10 @@ export default function Surface({ children }: { children: ReactNode }) {
         overflow: "hidden",
         p: 5,
         height: "max-content",
+        width:'100%',
         display: "flex",
         flexDirection: "column",
         gap: 4,
-        alignItems: "center",
         borderRadius: theme.shape.xxl,
       })}
     >

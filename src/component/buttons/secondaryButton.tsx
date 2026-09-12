@@ -10,7 +10,7 @@ export default function SecondaryButton({ children,onClick }: { children: ReactN
         display: "flex",
         flexDirection: "row",
         bgcolor: "secondary.main",
-        p: 4,
+        p: 3,
         borderRadius: theme.shape.full,
         alignItems: "center",
         justifyContent: "center",

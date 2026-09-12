@@ -1,9 +1,9 @@
 import User from "@/layout/user/user";
-
+import HomePage from "@/pages/Home/Home";
 export default async function Home() {
   return (
-   <User user={false}>
-    <h1>هاي</h1>
+   <User user>
+    <HomePage/>
    </User>
   )
 }

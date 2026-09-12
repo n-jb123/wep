@@ -1,5 +1,5 @@
 import theme from "@/theme/theme";
-import { CssBaseline, ThemeProvider } from "@mui/material";
+import { Container, CssBaseline, ThemeProvider } from "@mui/material";
 import { ReactNode } from "react";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 
